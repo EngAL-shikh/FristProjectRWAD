@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Eng ALshikh</string>
+    <string name="qustion">Qustion</string>
+    <string name="TRUE">True</string>
+    <string name="FALSE">Fulse</string>
+    <string name="nextbt">Next</string>
+    <string name="priv">previous</string>
+
+    //================Qustions===================
+
+    <string name="fristQ">Sanaa is the capital of Yemen? </string>
+    <string name="q2">Taiz is located in Yemen? </string>
+    <string name="q3">Cairo is the capital of Egypt</string>
+    <string name="q4">Sudan is a European country </string>
+
+    //================ answer message ==============
+    <string name="correct">your answer is correct </string>
+    <string name="False">your answer is false </string>
+
+    //================ descrptionButton==============
+    <string name="despriv">your answer is correct </string>
+    <string name="desnext">your answer is false </string>
+
+
+
+
+
+
+</resources>
