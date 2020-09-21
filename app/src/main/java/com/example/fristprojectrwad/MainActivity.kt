@@ -40,6 +40,10 @@ class MainActivity : AppCompatActivity() {
 
 
         //=======Next quastion=================
+        tv_qustion.setOnClickListener {
+
+            updateQuestion()
+        }
         tv_qustion.setText(qustionBank[0].restTextid)
 
         bt_next.setOnClickListener {
