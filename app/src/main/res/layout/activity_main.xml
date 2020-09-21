@@ -16,7 +16,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/tv_qustion"
@@ -90,35 +90,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
-    <ImageButton
-        android:id="@+id/imprev"
-        android:layout_width="58dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/priv"
-        android:contentDescription="@string/desnext"
-        app:layout_constraintEnd_toStartOf="@+id/imnext"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/previous"
-        app:srcCompat="@drawable/previous_24dp"
-        tools:ignore="VectorDrawableCompat" />
-
-    <ImageButton
-
-        android:id="@+id/imnext"
-        android:layout_width="58dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="277dp"
-        android:layout_marginLeft="277dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:background="@drawable/nextshape"
-        android:contentDescription="@string/despriv"
+    <TextView
+        android:id="@+id/showresult"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/trueshape"
+        android:fontFamily="@font/gg"
+        android:gravity="center"
+        android:text="عرض النتيجة "
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
-        app:layout_constraintTop_toBottomOf="@+id/bt_next"
-        app:srcCompat="@drawable/next"
-        tools:ignore="VectorDrawableCompat" />
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/previous" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
