@@ -76,9 +76,20 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        imnext.setOnClickListener {
+
+            updateQuestion()
+
+        }
+
 
         //=======previous=================
         previous.setOnClickListener {
+
+            privQ()
+        }
+
+        imprev.setOnClickListener {
 
             privQ()
         }
